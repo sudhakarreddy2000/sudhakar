@@ -1,0 +1,1923 @@
+21st Feb
+MERN Stack: MongoDb, Express, React and Nodejs
+P. Sudhakar Reddy
+Front-End + Back-End=FullStack
+Front-End:
+	html
+	css
+	bootstrap
+	javascript
+	React
+Back-End:
+	Nodejs
+	Express
+	Mongodb
+
+Validations are 2 types
+	1)Client Side Validation
+			-javascript and react	
+	2)Server Side Validation
+			-Nodejs, express, MongoDB
+
+22nd Feb25:
+
+Website:
+Website is a collection of web pages, which contains information.
+Information will be in the form of text, images, graphics, videos, hyperlinks and audio.
+
+Home Page:
+First page / Landing page of a website is called Home page
+Home page name should be unique.
+Home page name should be 'index.html'
+
+Browser:
+Browser is a application, which is used to connect to concern server and get websites.
+Chrome, Safari, mozilla, edge.
+
+Google:
+it is a Search Engine
+yahoo is a Search Engine
+Bing is a Search Engine
+
+Seo:
+Search Engine Optimization
+
+What is required for a website?
+
+	1) Domain name Registration
+		ex: mern.com/.in/.us/.uk
+	2) Server Space	
+		ex:1gb /5gb/10gb
+	3) Designing / Developing
+
+
+27th Feb25:
+=========
+html5 
+Where we write html code?
+	-Download and install visual studio code(VSC)
+
+What is html?
+-html=>Hyper Text Markup Language
+
+What is the purpose of html?
+-Structure of any webpage can be built with html
+
+What is required for writing html code?
+-We need any text editor, for ex:Notepad, Visual Studio Code
+
+In which file format html should be saved?
+-.html
+
+html contains tags.
+HTML tags are keywords that define how a web page is structured and displayed. They are the structural components of an HTML document. 
+-ex: <title> </title>, <h2> </h2>, <img>
+
+Tags are 2 types
+	1) opening tag
+		ex:<title>
+	2) closing tag
+		ex: </title>
+
+html is not case sensitive
+
+First program of html:
+=>Create folder =>ex: html folder
+=>Open that in visual studio code
+=>Create a new file with .html extention
+=>Write some html code and save
+=>Open that file in any Browser
+
+
+<br> ==>break
+<hr> ==>horizontal ruler
+
+
+Attributes:
+========
+Attributes in html are keywords for a particular.
+HTML attributes define the behavior and properties of a html element.
+ex: changing the background color of webpage
+	<body bgcolor="yellow">
+
+	</body>
+Attribute are optional
+Attributes will be written only in opening tag
+
+Primary color=>RGB(Red, Green, Blue)
+Red=> 255 shades of red
+Green=> 255 shades of Green
+Blue => 255 shades of Blue
+255 x 255 x 255 =>16.7 million colors
+
+Hexa decimal color code=>#66ccaa
+rgb() =>rgb(0,255,0)
+
+Attributes for hr tag:
+	color
+	width
+	size
+	align
+<hr color="red" width="500px" size="20px" align="left/center/right">
+
+<b> </b> ==>bold
+<i> </i>  ==>italic
+<u> </u> ==>underline
+<mark> </mark> ==>used for marking
+<del> </del> ==>used for strike off
+
+1st March:
+Headings in html
+There are 6 headings available
+<h1> </h1>  =>big heading
+<h2> </h2>
+<h3> </h3>
+.
+<h6> </h6> =>small heading
+Attributes for Headings
+	align="left/center/right"
+
+Paragraph:
+<p> </p>
+Attribute for paragraph
+	align="left/center/right"
+
+List items:
+	list items are 2 types
+	1) order list item
+		<ol> </ol>
+	2) unorder list item
+		<ul> </ul>
+
+Inserting images:
+<img>
+<img src="file.jpg/png/gif" />
+Attributes:
+src
+width
+height
+border
+alt
+------------
+<marquee> </marquee> ==>used to scroll the content
+
+encoding
+	utf-8/16
+
+4th March:
+
+Hyperlinks:
+
+<a href="file.html"> link </a>
+a=>anchor
+href=>hyper reference
+
+Tables:
+<table> </table>
+<tr></tr> ==>table row
+<td> </td> ==>table data
+<th> </th> ==>table head
+
+Forms:
+<form> </form>
+<input type="text/password/checkbox/radio/submit/reset/email/color/date/file" />
+<textarea> </textarea>
+<select>
+<option> </option>
+</select>
+<label> </label>
+ 
+6th March:
+=========
+iframe tag
+
+<iframe> </iframe>  =>used to embed external content	
+				- html file inside html 
+				- google maps
+				- youtube videos		
+
+
+Divisions:
+<div> </div>
+
+html5 tags:
+<video> </video>
+<audio> </audio>
+<figure> </figure>
+<figcaption> </figcaption>
+<header> </header>
+<footer> <footer>
+<nav> </nav>
+<aside> </aside>
+<article> </article>
+<section> </section>
+
+CSS:
+Cascading Style Sheets:
+
+Advantages of CSS:
+
+CSS saves time − You can write CSS once and then reuse same sheet in multiple HTML pages. You can define a style for each HTML element and apply it to as many Web pages as you want.
+
+Pages load faster − If you are using CSS, you do not need to write HTML tag attributes every time. Just write one CSS rule of a tag and apply it to all the occurrences of that tag. So less code means faster download times.
+
+Easy maintenance − To make a global change, simply change the style, and all elements in all the web pages will be updated automatically.
+
+Superior styles to HTML − CSS has a much wider array of attributes than HTML, so you can give a far better look to your HTML page in comparison to HTML attributes.
+
+Multiple Device Compatibility − Style sheets allow content to be optimized for more than one type of device. By using the same HTML document, different versions of a website can be presented for handheld devices such as PDAs and cell phones or for printing.
+
+Global web standards − Now HTML attributes are being deprecated and it is being recommended to use CSS. So its a good idea to start using CSS in all the HTML pages to make them compatible to future browsers.
+
+
+8th March:
+
+Syntax of css:
+
+	selector{
+		property:value;
+	}
+
+ex:
+	h1{
+		color:red;
+	}
+
+How many way we can apply: 3 ways
+	1) Internal css
+	2) External css
+	3) Inline css
+
+Internal css
+	<head>
+		<style>
+
+		</style>
+	</head>
+
+Css Properties:
+
+color:red;
+text-align:left/center/right;
+font-family:arial;
+font-size:16px/1em;
+background-color:pink;
+
+list-style-type:none/circle/square;
+list-style-image:url(pic.jpg)
+
+comments:
+A comment in programming is text in source code that is ignored by a compiler or interpreter. Comments are used to make code easier to understand by explaining aspects that are not obvious in the code. 
+
+comments in html:
+	<!-- some comments -->
+
+comments in css:
+	//single line comment
+	/* multi line
+	comment */
+
+11th March:
+13th March:
+background-image:url()
+background-repeat:no-repeat/repeat-x/repeat-y;
+background-position:top left / top right / bottom right;
+background-size:cover;
+background-attachment: fixed;
+
+border:1px solid/dotted/dashed red;
+border-top:1px solid red;
+border-left: 
+border-right:
+border-bottom:
+
+Hyper links with css:
+text-decoration:none;
+
+Selector types:
+	Tag/Element selector
+			ex:  h1{ }
+	pseudo class selector
+			ex: a:hover{ }
+	class selector
+			ex: .className{ }
+	id selector
+			ex: #idName{ }
+
+Margin and Padding:
+margin and padding is used to give space for an element.
+
+margin is a space outside of an element.
+margin:30px;
+margin-top:30px;
+margin-bottom:30px;
+margin-left:30px;
+margin-right:30px;
+
+15th March:
+padding is a space inside of an element.
+padding:30px;
+padding-top:30px;
+padding-bottom:30px;
+padding-left:30px;
+padding-right:30px;
+
+CLASS SELECTOR:
+class selector should start with dot(.)
+	ex: .className{ }  =>defining a class
+
+<h3 class='className'> </h3> =>Assigning a class
+
+The class selector selects all elements that have the given class attribute denoted by the class name prefixed with a period ( . )
+
+float:left/right;
+
+18th March:
+clear:left/right/both;
+line-height:80px;
+
+overflow:hidden/scroll/auto;
+
+border-radius:30px;
+border-radius:0px 30px;
+border-radius:0px 20px 40px 80px;
+border-radius:50%;
+
+transition:propertyName time;
+
+box-shadow:10px 10px 10px black;
+
+transform:scale() / rotate() / skew();
+transform:scalex() / scaley() / rotatex() / rotatey() / rotatez() / skewx() / skewy();
+ translate: 100px 20px;
+
+20th March:
+
+position:static/relative/absolute/fixed/sticky
+top:200px;
+left:20px;
+right:20px;
+bottom:200px;
+
+static position:
+What is a static position in CSS?
+Static is the default position for HTML elements. Elements with position: static are positioned based on the normal flow of the page, as you would expect them to be without any CSS styling. They are not affected by the top, right, bottom, or left properties. Z-index also does not apply to static elements.
+
+relative position:
+An element with position: relative; is positioned relative to its normal position. Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the element.
+
+absolute position:
+An element with position: absolute; is positioned relative to the nearest positioned ancestor.
+
+However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.
+
+Note: Absolute positioned elements are removed from the normal flow, and can overlap elements.
+
+What is the main difference between relative and absolute positioning in CSS? Relative positioning moves an element from its normal position, while absolute positioning places an element relative to its closest positioned ancestor.
+
+fixed position:
+An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element. A fixed element does not leave a gap in the page where it would normally have been located.
+
+sticky position:
+An element with position: sticky; is positioned based on the user's scroll position. A sticky element toggles between relative and fixed , depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
+
+25th March:
+
+id selector:
+The id selector uses the id attribute of an HTML element to select a specific element. The id of an element is unique within a page, so the id selector is used to select one unique element! To select an element with a specific id, write a hash (#) character, followed by the id of the element.
+
+
+	#idName{
+
+	}
+
+	<h1 id='idName'> </h1>
+
+
+What is the difference between class and ID selector in CSS?
+While an ID is specific to a single element, classes can be assigned to multiple elements on a page or throughout the website. They are not unique. And while a single element can only have one ID.
+
+<h2 class='x'> </h2>
+<h2 class='x'> </h2>
+<h3 class='x'> </h2>
+
+<h4 id="y"> </h4>
+
+
+External css:
+	1) html file / files
+	2) css file ==>.css
+
+css linking with html file:
+		<head>
+		<link href="file.css" rel="stylesheet">
+		</head>	
+
+Responsive Web Designing(RWD):
+Responsive web design (RWD) is a design approach that allows websites to adapt and render optimally on various devices and screen sizes, ensuring a consistent and user-friendly experience across desktops, tablets, and smartphones. 
+
+Media queries:
+Media queries are a key part of responsive web design, as they allow you to create different layouts depending on the size of the viewport.
+
+@media screen and (max-width:999px){
+
+}
+
+27th March:
+
+Flex box model:
+
+display:none/inline/block/inline-block/flex
+justify-content:flex-start / center / flex-end / space-around / space-between; => horizontal alignment
+
+align-items:flex-start / center / flex-end; =>vertical alignment
+
+flex-direction:row/column/row-reverse/column-reverse;
+
+flex-wrap:nowrap / wrap / wrap-reverse;
+
+What are Pseudo-Elements?
+A CSS pseudo-element is used to style specific parts of an element.
+
+For example, it can be used to:
+
+Style the first letter or line, of an element
+Insert content before or after an element
+Style the markers of list items
+Style the viewbox behind a dialog box
+Syntax
+selector::pseudo-element {
+  property: value;
+}
+
+p::first-letter{}
+p::first-line{}
+h1::before {
+  content: url(smiley.gif);
+}
+h1::after {
+  content: url(smiley.gif);
+}
+
+The ::marker pseudo-element selects the markers of list items.
+::marker {
+  color: red;
+  font-size: 23px;
+}
+
+::selection{
+
+}
+
+input::placeholder{
+
+}
+
+
+29th March:
+
+Bootstrap:
+Bootstrap is a free, open-source front-end framework that provides pre-designed HTML, CSS, and JavaScript components to help web developers quickly and easily create responsive, mobile-first websites and web applications. 
+
+html==>to create structure of any webapp
+css==>used to make webapp more efficient and effective...
+	Selectors:
+	Tag/element selector
+	class selector=>
+		defining a class=>  .className{ }
+		assigning class=> <h3 class="className"> </h3>
+
+	id selector
+	pseudo element selector
+
+External css:
+	1. Create a .css file
+	2. link css file to html file
+		<head>
+		<link href="file.css" rel="stylesheet">
+		</head>
+
+Bootstrap contains in-built classes in css file.
+When you link bootstrap css, then all the in-built classes will be called.
+
+Official website of bootstrap:
+	getbootstrap.com
+
+We need to copy CDN link of css file from this website and use or link it in html.
+
+Text / Typography classes.
+---------------------------------------
+.text-danger
+.text-danger-emphasis
+.text-success
+.text-success.emphasis
+.text-info
+.text-info.emphasis
+.text-warning
+.text-dark
+.text-light
+.text-primary
+
+Background classes:
+.bg-danger
+.bg-danger-subtle
+.bg-success
+.bg-success-subtle
+.bg-primary
+.bg-primary-subtle
+.bg-warning
+.bg-warning-subtle
+.bg-info
+.bg-info-subtle
+.bg-dark
+.bg-dark-subtle
+.bg-light
+.bg-light-subtle
+
+Text-alignment:
+---------------------
+.text-start  ==>left alignment
+.text-end   ==>right alignment
+.text-center ==>center alignment
+
+heading display classes:
+------------------------------
+display-1
+display-2
+display-3
+display-4
+display-5
+display-6
+
+text transform:
+-------------------------
+text-lowercase
+text-uppercase
+text-capitalize
+
+font size:
+-------------
+fs-1
+fs-2
+fs-3
+fs-4
+fs-5
+fs-6
+
+font weight and italic:
+-------------------------------
+fw-bold
+fw-bolder
+fw-semibold
+fw-medium
+fw-normal
+fst-italic
+fst-normal
+
+text line height: space between lines
+---------------------
+lh-1
+lh-sm
+lh-lg
+lh-base
+
+1st April
+Button classes:
+.btn
+.btn-primary
+.btn-success
+.btn-warning
+.btn-danger
+.btn-info
+.btn-dark
+
+.btn-outline-primary
+.btn-outline-danger
+.btn-outline-success
+.btn-outline-warning
+etc.
+
+.btn-lg
+.btn-sm
+
+.d-grid 
+.gap-2
+
+ALERTS:
+
+.alert ==>used to style alert boxes
+.alert-primary
+.alert-danger
+.alert-success
+.alert-warning
+.alert-info
+
+List group:
+List groups are a flexible and powerful component for displaying a series of content. Modify and extend them to support just about any content within.
+
+.list-group
+.list-group-item
+.active
+.list-group-flush
+
+5th April:
+======
+image classes:
+.img-fluid
+.img-thumbnail
+.rounded
+.float-start
+.float-end
+.mx-auto 
+.d-block
+
+margin:
+.m-1 to .m-5
+.mt/mb/ms/me-2
+
+padding:
+.p-1 to p-5
+.pt/.pb/.ps/.pe
+
+.border
+.border-1 to .border-5
+.border-primary/success/warning
+
+.border-top
+.border-bottom
+.border-start
+.border-end
+
+.border-top-0
+.border-start-0
+.border-end-0
+.border-bottom-0
+
+Width:
+w-25
+w-50
+w-75
+w-100
+
+SHADOWS:
+
+shadow-sm
+shadow-lg
+
+GRID MODEL:
+.container
+.row
+.col
+
+8th April:
+<500px
+>500px -999px
+>999px
+
+	xs
+<576px	sm
+≥576px	md
+≥768px	lg
+≥992px	xl
+≥1200px	xxl
+≥1400px
+Container max-width	None (auto)	540px	720px	960px	1140px	1320px
+Class prefix	.col-	.col-sm-	.col-md-	.col-lg-	.col-xl-	.col-xxl-
+
+Card:
+=====
+.card
+.card-img-top
+.card-body
+.card-title
+.card-text
+
+navs and tabs:
+==============
+.nav
+.nav-item
+.nav-link
+.justify-content-center
+.justify-content-end
+.justify-content-start
+
+.nav-tabs
+.active
+
+10th April:
+========
+.collapse class
+Toggle the visibility of content across your project with a few classes and our JavaScript plugins.
+ data-bs-target ="#para"  =>attribute
+data-bs-toggle="collapse"
+-----------------------------------------------------
+.navbar
+
+fixed-top
+fixed-bottom
+sticky-top
+
+------------------------
+carousel:
+
+	.carousel 
+	.slide
+	.carousel -inner
+	.carousel-item
+	.carousel-control-prev
+	.carousel-control-next
+data-bs-target="#carouselExample" 
+data-bs-slide="prev"
+data-bs-slide="next"
+
+
+12th April:
+========
+Javascript
+
+scripting:
+
+	int x=10; ==>java=>tightly typed language
+	
+	a=20; scripting programs are loosely typed language
+
+Purpose of javascript:
+	=>javascript is used to develop dynamic websites
+	=>javascript is used to make website interactive
+	=>javascript is used to write client side validations
+
+javascript is case sensitive
+
+javascript can be written in 2 ways
+	1)internal javascript
+	2)external javascript =>.js
+
+
+document.write("hello js")
+
+Using html tags in javascript
+
+Using html attributes in javascript
+
+Double quotes (" ") should not be used in double quotes
+Single quotes(' ') should not be used in single quotes
+
+15th April
+-----------------
+Popup messages
+	1) alert() ==>it is used to alert the user
+	2) prompt() ==>it is used to take input values from user
+	3) confirm() ==>it is used to confirm
+
+comments:
+	in 2 ways we can write comments
+	1) Single line comment  //
+	2) Multi line comment /* */
+
+
+Identifiers
+keywords/reserved keywords
+
+Identifiers:
+An identifier is a sequence of characters in the code that identifies a variable, function, or property. In most languages, identifiers are case-sensitive and not quoted. In JavaScript, identifiers can contain Unicode letters, $ , _ , and digits (0-9), but may not start with a digit.
+	$uid
+	uid
+	UID
+	Uid
+	uid99-->currect
+	99uid-->wrong
+
+Keywords:
+In Javascript, keywords are reserved words with a predefined meaning that the interpreter understands. 
+They are essential for constructing Javascript code and cannot be used as identifiers (variable names, method names, etc.). 
+	Some of the reserved keywords in javascript
+	var
+	let
+	const
+	function
+	if
+	else
+	return
+
+		var firstName="sudhakar"    ==>correct
+		
+		var function="sudhakar"   ==>wrong, it will give erro
+	
+
+VARIABLES:
+------------------
+Variables are containers which can store data value/ information. Data value/information can be a number, text, decimals etc.
+Creating a variable in JavaScript is called "declaring" a variable.
+Storing a value inside that variable is called assigning a value to a variable.
+
+We can declare a variable in javascript in by using 3 keywords
+	1) var keyword
+	2) let keyword
+	3) const keyword
+
+	ex:
+		var uid;   =>declaring a variable
+		uid="javascript";  =>assigning a data value
+
+	ex:declaring and assigning in one line
+		var uid="javascript"
+
+=>Variables are case sensitive
+=>Variable declaration rules
+	-variable name should not start with number
+		ex var 99xyz ->wrong
+	-variable names should not have spaces
+		ex var first name; ->wrong
+			var first_name;  -->currect
+			var first_name99; -->currect
+	-variable names can start with $
+	_variables name can start with _
+
+
+17th April:
+--------------
+Data types:
+	var uid="javascript"; string data type
+	var age=22;  number/integer data type
+	var ans=true/false; boolean data type
+	var x; ==>undefined
+	var obj={1,2,3,4}; object data type
+	var arr=['a','b','c']; array data types
+
+	Number()
+	parstInt()
+
+Interest amount application:
+
+		10455
+		2%
+		2000
+
+	ptr/100
+	10000*2/100=200
+
+Task:
+Can you write a program to take input dollar value and convert to indian rupesss
+
+concatination:
+-----------------------
+What is concatenation in JavaScript?
+String concatenation is the operation of joining character strings end-to-end. For example, the concatenation of "snow" and "ball" is "snowball".
+
+For concatenation in js, we use '+' symbol
+
+	var n="java"
+	var m="script"
+	document.write(n m)
+	document.write(m)
+
+	
+	2% rate of interest for 50000 is 200
+
+19th April
+=========
+Arrays:
+Arrays are variables too, which contains many values.
+
+example of a variables:
+	var emp1="Peter"
+	var emp2="John"
+
+	document.write(emp1)
+
+example of an Array:
+	var emp=['Peter','John','Willams']
+	document.write(emp)
+	document.write(emp[2])
+JavaScript arrays are zero-indexed: the first element of an array is at index 0, the second is at index 1, and so on 
+
+Array methods:
+push() method ==>it adds extra item at the end of an array
+pop() method ==>it removes item at end of an array
+
+22nd April:
+
+unshift():The unshift() method adds a new element to an array (at the beginning), and "unshifts" older elements:
+
+shift()=> The shift() method removes the first array element and "shifts" all other elements to a lower index.
+
+DOM:
+Document Object Model:
+The Document Object Model (DOM) serves as an interface, representing HTML  documents as a "tree structure". 
+Each node in this tree is an object representing a part of the document, allowing JavaScript to interact with and manipulate web page content dynamically. 
+The DOM is not part of the JavaScript language itself but a Web API provided by browsers.
+
+document.getElementById()
+
+The getElementById() method returns an element with a specified value. 
+The getElementById() method returns null if the element does not exist. 
+The getElementById() method is one of the most common methods in the HTML DOM. 
+It is used almost every time you want to read or edit an HTML element.
+
+innerHTML property: You can also use it to set or change elements' innerHTML
+
+24th April:
+========
+getElementsByTagName() method:
+getElementsByClassName() method:
+querySelector() method
+
+Date() function
+
+Date methods:
+	getHours()
+	getMinutes()
+	getSeconds()
+	getDate()
+	getMonth()
+	getFullYear()
+	getDay()
+	toLocaleTimeString()
+	toLocaleDateString()
+
+
+CONDITIONAL STATEMENTS:
+if else condition:
+
+	if(condition){
+		statement;
+	}else{
+		statement;
+	}
+
+	<=40 ==>Failed
+
+OPERATORS: it is a symbol which will be used for numbers, strings etc.
+	1) Assignment operator
+		=
+	2) Arithmatic operator
+		+,-,/,*,%
+	3) Conditional operators
+		<=,>=,!=,==,===
+	4) Logical operator
+		&&(and), ||(or)
+
+
+javascript==>Authorised user
+26th April:
+=========
+userid==>javascript
+pwd==>software
+
+
+if else if condition:
+==============
+marks<=40  failed
+<=40 failed
+>40-<=50 =>passed
+>50-<=60=>second class
+>60-<=70=>first class
+>70-<=100=>distinction
+>100 invalid marks
+
+if else if statement will have multiple conditions
+syntax:
+	if(condition){
+
+	}else if(condition){
+
+	}else if(condition){
+
+	}else{
+
+	}
+
+===================
+switch case:
+=========
+syntax:
+	switch(condition){
+		case a:
+		statement;
+		break
+
+		case b:
+		statement;
+		break
+
+		case c:
+		statement;
+		break
+
+		default:
+		statement
+	}
+=======================
+Loops:
+====
+Loops are used to iterate based on condition
+A loop in programming is a sequence of instructions that is repeatedly executed until a specific condition is met or a set number of times. It's used to automate repetitive tasks and make code more efficient. The core idea is to avoid writing the same code multiple times by using a loop to execute it as needed. 
+
+hello world
+document.write("hello world");
+document.write("hello world");
+document.write("hello world");
+document.write("hello world");
+document.write("hello world");
+
+Different types of loops in javascript:
+	1) for loop
+	2) while loop
+	3) do while loop
+	4) for in
+	5) for of
+	6) forEach
+
+
+for loop:
+---------
+syntax:
+	for(initialisation; condition; increment/decrement){
+
+	}
+
+	for(i=1; i<=10; i++){
+
+		statement;
+	}
+
+
+29th April:
+========
+incrementing and decrementing numbers
+1
+2
+3
+4
+5
+6
+7
+8
+9
+Displaying numbers in select option
+
+1st May:
+=======
+while loop:
+
+initialisation;
+while(condition){
+	statement;
+	condition
+}
+
+for in and for of loops:
+===================
+for of is recomended for arrays
+let users=['Anil','Sunil','Mahesh','Rajesh']
+for(let val of users){
+	val
+}
+
+-----------
+//for in is suggested for objects
+let person={
+    name:'Bharath',
+    age:22,
+    place:'Hyderabad'
+}
+for(let val in person){
+    //document.write(val+"<br>")  =>getting only keys
+    document.write(person[val]+"<br>")
+}
+--------------
+break statement:
+break statement will break the for loop
+for(i=1; i<=10; i++){
+	document.write(i)
+}
+------------------
+continue statement
+it breaks one iteration (whatever you give it in for loop)
+if(i==3) ==>it is going to skip 3
+---------------------
+Task
+ask user to enter some number, whatever they enter for that numbers table has to be generated...
+	2 x 1 =2
+	2 x 2 =4
+	.
+	.
+	2 x 10 = 20
+=============
+functions:
+Functions are block of code, which can be used to use at differenct places.
+
+=>in javascript one way of creating functions can be defined with  function keyword.
+
+function functionName(){
+
+}
+=>function has to be called
+functionName()
+=>function can be called number of times
+=>functions are case sensitive
+	function Demo(){
+	}
+	Demo()
+====================
+function with parameters and arguments:
+	function Demo(parameter){
+	}
+	Demo(arguments)
+	Demo(arguments)
+	Demo(arguments)
+In JavaScript, parameters are variables declared in a function's definition, serving as placeholders for values that will be passed to the function when it is called. 
+Arguments are the actual values passed to a function when it is invoked. 
+=======================
+Events:
+Events are some actions. 
+events can be onclick, onmouseover..
+onclick
+onmouseover
+onmouseout
+onchange
+onselect
+onsubmit
+onscroll
+onkeydown
+onkeyup
+
+3rd May:
+=======
+onchange event
+onchange background color 
+font-size==>css
+fontSize=>js
+
+onscroll event
+
+onfocus
+onblur
+
+onkeydown
+onkeyup
+
+==============
+string methods
+
+	toUpperCase()
+	toLowerCase()
+
+7th May:
+
+toUpperCase() on keyup
+onload() event
+
+CallBack functions:
+A callback function in JavaScript is a function that is passed as an argument to another function and is executed after the completion of some operation. This allows for asynchronous operations, ensuring that a function executes only after a specific task is completed. 
+
+setInterval()
+setTimeout()
+
+setTimeout("Demo()",6000)
+
+
+Defining functions can be done in different ways:
+Method 1:
+	function Demo(){
+		
+		}
+
+Method 2: Arrow functions
+	=>it is introduced in Es6(Ecma Script 2015)
+	const Demo=()=>{
+
+	}
+
+=====================
+CallBack Hell:
+Callback hell, also known as the "pyramid of doom," arises when dealing with multiple nested callbacks in asynchronous JavaScript code. This pattern makes the code difficult to read, understand, and maintain. It typically occurs when performing sequential asynchronous operations where each operation depends on the result of the previous one.
+
+======================
+promise:
+	A Promise in JavaScript is an object representing the eventual completion (or failure) of an asynchronous operation. It provides a way to handle asynchronous operations in a more manageable way than traditional callbacks. A Promise can be in one of three states: 
+Pending:
+The initial state, representing that the asynchronous operation is still in progress.
+
+Fulfilled:
+The operation completed successfully, and the Promise now holds the resulting value.
+
+Rejected:
+The operation failed, and the Promise now holds the reason for the failure (usually an error object).
+
+							=>.then() method (resolved/fullfilled)
+
+	Promise =>pending stage=
+		 
+							=>.catch() method (rejected)
+
+==================================================
+addEventListener() method:
+What is the addEventListener in JavaScript?
+The addEventListener() method attaches an event handler to the specified element. The addEventListener() method attaches an event handler to an element without overwriting existing event handlers. You can add many event handlers to one element.
+
+===========================
+scope:
+Scope in JavaScript determines the accessibility or visibility of variables, functions, and objects within different parts of the code. It helps to avoid naming conflicts and manage the lifecycle of variables. There are primarily three types of scope in JavaScript:
+Global Scope:
+Variables declared outside any function or block have global scope. They can be accessed and modified from anywhere in the code. In the context of a browser, the global scope is the window object.
+
+Function Scope:
+Variables declared inside a function have function scope. They are only accessible within that function and any nested functions.
+
+Block Scope:
+Variables declared with let or const inside a block (e.g., within an if statement, loop, or curly braces {}) have block scope. They are only accessible within that block. Variables declared with var do not have block scope and are instead scoped to the function or global scope.
+
+
+
+13th May:
+========
+regular expressions:
+A regular expression is a pattern of characters.
+The pattern is used for searching and replacing characters in strings.
+The RegExp Object is a regular expression with added Properties and Methods.
+
+ var pat=/[a]/g;
+g==>global
+i==>case sensitive ignore
+  var str="javaScript";
+   var pat=/[a]/g;
+   var res=str.match(pat);
+
+/[A-Z]/g;
+/[a-z]/g;
+/[0-9/g;
+\d 	Find a digit character
+
+\D	Find a non-digit character
+
+
+const regex = /[A-Z]/g;
+const found = paragraph.match(regex);
+
+--------------------
+Destructuring:
+Destructuring in JavaScript provides a concise way to extract values from arrays and assign them to distinct variables. This technique simplifies code and enhances readability, especially when dealing with complex data structures.
+
+ // let user=['Anil','Hyderabad',22]
+            // //let name=user[0]=>old method
+        // let [name,place,age]=user
+        // console.log(name)
+        // console.log(place)
+        // console.log(age)
+
+
+destructuring using object
+
+        let person={
+            name:'xyz',
+            age:22,
+            address:{
+                city:'Hyderbad',
+                state:'Telangana'
+            }
+        }
+
+            let {name,age,address:{city}}=person
+            console.log(name)
+            console.log(city)
+=============================
+Javascript engines:JavaScript engines simply convert JavaScript source code into a language the compiler can understand, then executes it.
+	V8 engine ==>chrome
+	spider monkey ==>mozilla	
+
+Execution Context:
+An environment in which the javascript code runs is what form an execution context.
+The execution context decides what particular piece of code has access to variables, functions, objects, etc.
+Execution context have different types —
+1.	Global Execution Context (GEC)
+2.	Function Execution Context(FEC)
+
+
+There are mainly two phases of the execution context.
+1.	Creation phase
+2.	Execution phase
+
+15th May:
+========
+Hoisting
+	partially hoisting=> variables
+	completely hoisting ==>functions
+
+A temporal dead zone (TDZ) :
+the block where a variable is inaccessible until the moment the computer initializes it with a value.
+
+Shadowing:
+In programming, shadowing occurs when a variable declared in a certain scope (e.g. a local variable) has the same name as a variable in an outer scope (e.g. a global variable). When this happens, the outer variable is said to be shadowed by the inner variable.
+
+
+	illegal shadowing
+	legal shadowing
+
+Closures
+	Lexical Scope
+
+17th May:
+=======
+React :
+React is library of javascript
+developed and maintained by facebook
+React is used for creating Single Page Applications
+React is a component based application
+
+20th May:
+
+Intalling react:
+	1) install Nodejs
+	2) npm create vite@latest stribe
+=======
+to react app
+	=>at terminal we have to type
+		npm run dev
+to Stop running app
+	=>at terminal pres ctrl+C
+
+========================
+Folder structure of react app
+	app folder
+		-node_modules folder
+		-public folder 
+			-vite.svg
+		-src folder
+			-assets folder
+			-App.css
+			-App.jsx
+			-index.css
+			-main.jsx
+		index.html =>important
+		package.json file
+----------------------------------------------------
+main.jsx:
+
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import './index.css'
+import App from './App.jsx'
+
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    <App />
+  </StrictMode>,
+)
+----------------------------------------------------------
+=>Delete all files from src folder
+=>Create main.jsx file in src folder
+=>write below code:
+	import {createRoot} from 'react-dom/client'
+	createRoot(document.getElementById('root)).render(
+		<h1>Welcome to React world</h1>
+	)
+-------------------------------------------------------------
+When you try to add more than one JSX element it will give below error
+	"Adjacent JSX elements must be wrapped in an enclosing tag. 
+	Did you want a JSX fragment <>...</>?"
+
+Wrapping of multiple elements can be done in 3 ways:
+1) Using <div> tag as a wrapper
+2) Using [ ] as wrapper. we need to put coma after every jsx element
+3) Using fragment <> </> as a wrapper, which is preferable.
+
+22nd May:
+
+React Expressions:
+React expressions are snippets of JavaScript code embedded within JSX syntax using curly braces {}.
+Any valid JavaScript expression can be placed inside the curly braces, such as variables, function calls, and operators.
+React expressions are commonly used for: 
+
+Displaying Dynamic Data:
+Expressions enable the display of dynamic data, such as values from a database or user inputs, within the UI.
+Event Handling:
+Expressions can define event handlers, like onClick or onSubmit, to manage user interactions.
+Conditional Rendering:
+Expressions facilitate the conditional rendering of elements, showing or hiding components based on specific conditions.
+Code Reusability:
+Expressions promote code reuse and prevent repetition of logic.
+
+variables
+arrays
+objects
+
+Date() function
+
+date methods:
+
+getHours()
+getMinutes()
+getSeconds()
+getDate()
+getMonth()
+getFullYear()
+getDay()
+toLocaleTimeString()
+toLocaleDateString()
+------------------------------------
+inserting images in React:
+<img src="pic.jpg" />
+images can be place using
+	src folder
+	public folder
+
+	incase if you are importing from src folder, then we need to import it
+		import x from './pic.jpg'
+	we need place in jsx as expression
+		{x}
+
+	From public folder directly we can place it
+----------------------------------------
+24th May:
+css:
+
+	1) inline css
+		<h2 style="color:red;"> </h2>
+
+	2) internal css
+		<head>
+			<style>
+
+			</style>
+		</head>
+	3) external css
+		css file
+		link in html
+
+Using css in react:
+
+	external css
+		create css file
+		import css file
+			import './style.css'
+
+---------------------------------------------------------
+Using bootstrap:
+	We need bootstrap css link in html
+
+	Whereas in react bootstrap has to be installed
+		npm i bootstrap
+	How to check whether bootstrap installed or not
+		1) in package.json
+				look for bootstrap in dependency section
+		2) in node_module, we need to check for bootstrap folder
+
+=>bootstrap css file path
+	node_modules/bootstrap/dist/css/bootstrap.css
+
+Bootstrap classes:
+-----------------------------
+colors:	
+	text-primary
+	text-danger
+	text-warning
+	text-dark
+	text-light
+background classes:
+	bg-danger
+	bg-success
+	bg-warning
+	etc
+Button classes
+	btn
+	btn-success
+	btn-warning
+	btn-info
+images classes:
+	img-fluid
+
+27th May:
+======
+Bootstrap grid
+if else condition
+
+29th May:
+=======
+if else if
+if else if css
+importing and exporting data values
+export default
+
+if you try to export default more than once it will give below error "Only one default export allowed per module."
+
+Components:
+==========
+React components are the building blocks of React applications, serving as independent and reusable pieces of code that define how the UI is displayed. They are similar to JavaScript functions but work in isolation and return HTML elements. 
+
+in react components are 2 types
+	1) function component
+	2) class component
+
+class components are available in react since begining of react. 
+Whereas function components are introduced in recent versions and react suggests that to use function components in latest projects.
+in function components we can use hooks which are latest concepts in react.
+
+Creating function components:
+	function ComponentName(){
+		
+	}
+
+=>Component name should start with Capital letter
+
+31st May:
+-------------
+
+5th June:
+=======
+Components inside component
+props:
+props stands for properties
+Props is a special keyword in React that stands for properties and is used for passing data from one component to another. Data with props are passed in a unidirectional flow from parent to child.
+
+prop drilling:
+=========
+Prop drilling in React refers to the process of passing data down through multiple levels of components. This occurs when a parent component needs to share data with a deeply nested child component, requiring the data to be passed through intermediate components that don't actually use it themselves. 
+
+7th June:
+========
+hooks:
+Hooks are part function components, it is not used in class components.
+
+Hooks are functions that allow functional React components to manage state and side effects. They were introduced in React 16.8, enabling developers to use state and other React features without writing class components.
+
+state==>data or information
+
+There are different types of hooks are there in react.
+	1) useState() hook
+	2) useEffect() hook
+	3) useMemo() hook
+	4) useContext() hook
+	5) useRef() hook
+	etc.
+
+useState() hook:
+useState() hook is used to manage the state of function component.
+The useState hook is a fundamental part of React that enables functional components to manage state. 
+
+Purpose:
+It allows functional components to have state variables, which can change over time and trigger re-renders of the component.
+
+How it works:
+useState is a function that you call within a functional component. 
+It accepts a single argument: the initial value of the state variable. 
+		useState('react')
+It returns an array containing two elements:
+The current state value.
+A function to update the state value.
+	const [state, setState]=useState('react')
+
+====================
+functions in react
+events in react
+	onclick event ==>js
+	onClick event ==>in react
+
+14th June:
+=========
+update state example
+spread operator(...)
+map() method:
+In React, the map() method is used to iterate over an array and render a list of elements. It transforms each element of the array into a React element. This method is essential for dynamically displaying data from arrays in a user interface. 
+
+ myArray.map((item) => <p>{item}</p>);
+
+API:
+Application Programming Interface
+
+An API, or Application Programming Interface, is a set of rules and specifications that allow different software systems to communicate and interact with each other. It acts as a messenger, enabling applications to request and exchange data, access features, or use services without needing to understand each other's internal complexities.
+
+APIs are the backbone of modern software development. They unlock speed, interoperability, and scalability by allowing developers to plug into existing services instead of building every feature from scratch. This enables teams to integrate complex functionality, such as authentication, payments, and location services, quickly and reliably.
+
+fake json
+fetch() method:
+The fetch() method starts the process of fetching a resource from a server.
+The fetch() method returns a Promise that resolves to a Response object.
+
+useEffect() hook:
+============
+useEffect is a React Hook that allows functional components to perform side effects, such as data fetching, direct DOM manipulation, or setting up subscriptions. It accepts a function (the effect) and an optional array of dependencies. The effect runs after every render by default, but the dependency array allows for controlling when it runs. 
+syntax:
+	useEffect(function(),[])
+17th June:
+=========
+useMemo()
+The React useMemo Hook returns a memoized value.
+Think of memoization as caching a value so that it does not need to be recalculated.
+The useMemo Hook only runs when one of its dependencies update.
+This can improve performance.
+We  use somany functions in every app. But most of the time unnecessary functions are called, which reduces performace. So we use useMemo to improve performance.
+syntax:
+	useMemo(function,[])
+
+
+function multiply(){
+  return add*10
+}
+{multiply()}
+=>add **** to console
+function multiply(){
+  console.log("******")
+  return add*10
+}
+=>now execute , click both buttons one after other and show conlse
+=>even though u added multiply to add state only, even 
+when u click minus also it show *****
+=>that means unnessory some other functin executing
+=>so use useMemo
+const multiplication=useMemo(function multiply(){
+  console.log("******")
+  return add*10
+},[add])
+
+=>in above code we added only 'add' state so 
+========
+React routers:
+
+Single Page Application(SPA):
+A single-page application (SPA) is a web app that loads a single web page and then updates it with new data from the server. This makes the app feel more like a native app, with faster transitions between pages. 
+Routing:
+In a single-page React Application, routing refers to the process of navigating between different pages without triggering a full page reload. The application initially loads a single HTML page. Then, it dynamically renders different components based on user interaction.
+
+Need to install=>  react-router-dom
+React-router-dom contains in built component
+	BrowserRouter
+Routes
+Route
+Link
+
+<BrowserRouter>=> We wrap our content first with <BrowserRouter>.
+<Routes>=> Then we define our <Routes>. An application can have multiple 
+<Route> =><Route> s can be nested. The <Route> has a path of / and renders the component.
+<Link>
+import { BrowserRouter,Routes,Route } from "react-router-dom";
+<BrowserRouter>
+      <Routes>
+            <Route path='/about' element={<h1>About Us Page</h1>}  />
+      </Routes>
+</BrowserRouter>
+
+Hyperlinks in html
+<a href="about.html"> </a>
+use Link to instead of "a href"
+<Link to="/">Home</Link>
+
+19th June:
+=========
+Random User Generator API
+fakestore API
+
+24st June:
+========
+useContext():
+Why use context in React?
+Context, in React, is a way to pass data down through a component tree without having to pass props down through every level. This can be very helpful since this allows us to share data between components that are not directly related to each other (e.g., between sibling components).
+	createContext :
+const data = createContext()
+Context Provider
+Wrap child components in the Context Provider and supply the state value.
+      <data.Provider value={fname}>
+        <CompC />
+      </data.Provider>
+useContext Hook
+const user = useContext(data);
+
+<h1>{user}	
+
+
+Higher-order Component(HOCs):
+===============================
+Higher-order components (HOCs) are a powerful feature of the React library. They allow you to reuse component logic across multiple components. In React, a higher-order component is a function that takes a component as an argument and returns a new component that wraps the original component.
+Instead of doing it manually, you can use a "robot" that will do it automatically for you. This robot is a Higher-Order Component (HOC), a function that takes a component (your pastry) and returns your pastry with additional functionalities or features (in this case, a label indicating its type and ingredients)
+Hoc:
+import React from 'react'
+const clr={
+    color:'red',
+    background:'yellow'
+}
+export default function Hoc(props) {
+  return (
+    
+<h3 style={clr}><props.cmp/></h3>
+   
+  )
+}
+
+
+App.jsx
+import React from 'react'
+import Add from './Add'
+import Minus from './Minus'
+import Hoc from './Hoc'
+export default function App() {
+  return (
+    <div>
+    <Hoc cmp={Add}/>
+    <Hoc cmp={Minus}/>
+       </div>
+  )
+}
+
+
+Lazy Loading:
+Lazy loading is one of the most common design patterns used in web and mobile development. It is widely used with frameworks like Angular and React to increase an application’s performance by reducing initial loading time.
+React introduced two native features with the version 16.6 release to implement lazy loading in React applications. First, they use the power of code splitting and dynamic imports to allow developers to implement lazy loading for their applications easily.
+React.lazy() allows developers to easily create components with dynamic imports and render them as normal components. When the component is rendered, it will automatically load the bundle that contains the rendered component.
+You need to provide a single input parameter to call React.lazy(). It accepts a function as an input parameter, and that function should return a promise after loading the component using import(). Finally, the returned promise from React.lazy() will give you a module with a default export containing the React component.
+
+The following code shows how to use the React.lazy() function.
+// Without React.lazy()
+import AboutComponent from './AboutComponent ';
+
+// With React.lazy()
+const AboutComponent = React.lazy(() => import('./AboutComponent '));
+AboutComponent.jsx:
+import React from 'react'
+
+export default function AboutComponent() {
+  return (
+    <div>
+      <h1>AboutComponent</h1>
+      <h1>AboutComponent</h1>
+      <h1>AboutComponent</h1>
+      <h1>AboutComponent</h1>
+      <h1>AboutComponent</h1>
+
+      <h1>AboutComponent</h1>
+    </div>
+  )
+}
+
+
+React.Suspense
+When we use lazy loading, components are rendered as we navigate. So, we need to have a placeholder for those components until they are loaded. As a solution, React.Suspense was introduced, and it acts as a wrapper for the lazy components.
+import React, { Suspense } from "react";
+const AboutComponent = React.lazy(() => import('./AboutComponent'));
+const App = () => (
+    <div>
+      <Suspense fallback = { 
+<div> Please Wait... </div> } >
+      <AboutComponent />
+      </Suspense>
+    </div>
+);
+export default App
+
+
+1st July:
+-=====
+Nodejs:
+installaion
+
+first file of nodejs
+	create .js file
+	write some js code
+	Execute at terminal => node file.js
+
+Modules:
+	In Node.js, Modules are the blocks of encapsulated code that communicates with an external application on the basis of their related functionality. 
+Modules can be a single file or a collection of multiples files/folders. 
+Modules are of three types:
+•	Core Modules
+•	local Modules
+•	Third-party Modules
+
+Core Modules: Node.js has many built-in modules that are part of the platform and comes with Node.js installation. These modules can be loaded into the program by using the require function.
+
+Local Modules: Unlike built-in and external modules, local modules are created locally in your Node.js application. 
+
+Third-party modules: Third-party modules are modules that are available online using the Node Package Manager(NPM). These modules can be installed in the project folder or globally. Some of the popular third-party modules are mongoose, express, angular, and react.
+Example:
+•	npm install express
+•	npm install mongoose
+
+In order to use Node.js core or NPM modules, you first need to import it using require() function as shown below.
+
+Syntax:
+var module = require('module_name');
+
+Global objects:
+	__dirname
+	__filename
+
+
+httpmodule:
+-----------------------
+it is a core module
+The Node.js http module is a fundamental, built-in library that enables developers to create HTTP servers and handle HTTP requests and responses within Node.js applications. It is a core component for building web applications and APIs. 
+
+file system module(fs module):
+--------------------------------------------
+The fs (File System) module in Node.js is a built-in core module that provides an API for interacting with the file system of the operating system. It allows Node.js applications to perform various file and directory operations, such as reading, writing, updating, deleting, and renaming files, as well as creating and removing directories.
+	fs module methods:
+		readFile() method
+		writeFile() method
+		appendFile() method
+		unlink() method
+10th July
+========
+		writeFile() method
+		appendFile() method
+		unlink() method
+
+express:
+=======
+express is framework of nodejs
+	npm i express
+
+Steps to install express
+-----------------------------------
+	1) create a folder and open in vsc
+	2) at terminal, initialise npm
+			npm init
+				=>it will prompt for many questions, simple press enter
+				=>it will create package.json file
+	3) install express
+			npm i express
+	
+	4) Create a js file Write a code to create API
+		const express=require('express')
+const app=express();
+app.get('/',(req,res)=>{
+    res.send("Welcome to express")
+})
+app.get('/about',(req,res)=>{
+    res.send("About")
+})
+app.listen(3000,()=>console.log("Server started.."))
+	
+5) then execute it
+		node filename.js
+
+================
+	send() method
+	sendFile() method
+
+Middlewares:
+-------------------
+Express is a routing and middleware web framework that has minimal functionality of its own: An Express application is essentially a series of middleware function calls.
+
+Middleware functions are functions that have access to the request object (req), the response object (res), and the next middleware function in the application’s request-response cycle. The next middleware function is commonly denoted by a variable named next.
+
+Middleware functions can perform the following tasks:
+
+Execute any code.
+Make changes to the request and the response objects.
+End the request-response cycle.
+Call the next middleware function in the stack.
+
+STATIC FILES:
+=============
+To serve static files such as images, CSS files, and JavaScript files, use the express.static built-in middleware function in Express.
+
+app.use(express.static('public'))
+
+1) create js file and write code. use above middleware code
+2)create html in public folder
+3) images also place it inside public folder
+
+main.js:
+const express=require("express")
+const app=express()
+app.use(express.static('public'))
+app.get('/',(req,res)=>{
+    res.sendFile(__dirname+'/index.html')
+})
+app.listen(3000,()=>console.log('server started...'))
+
+15th July:
+=========
+Template Engines:
+===============
+A template engine enables you to use static template files in your application. At runtime, the template engine replaces variables in a template file with actual values, and transforms the template into an HTML file sent to the client.
+
+There are different types of template engines:
+	1) EJS
+	2) PUG
+
+
+  res.end() ==>part of http module
+
+res.send() ==>part of express
+res.sendFile() ==>part of express
+
+res.render() ===>part of template engines
+
+To use template engines:
+	install template engine
+		npm i ejs
+		or 
+		npm i pug
+
+	app.set('view engine', 'ejs') // register the template engine
+
+Template engine files should be in views folder
+	views/file.ejs
+
+
+
+
+
+
+
+
