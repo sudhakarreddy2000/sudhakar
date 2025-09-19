@@ -1,0 +1,30 @@
+[
+    {
+        "id":"1",
+        "name":"Hyderabad"
+    },
+    {
+        "id":"2",
+        "name":"Secunderabad"
+    },
+    {
+        "id":"3",
+        "name":"Warangal"
+    },
+    {
+        "id":"4",
+        "name":"Vizag"
+    },
+    {
+        "id":"5",
+        "name":"Medak"
+    },
+    {
+        "id":"6",
+        "name":"Koti"
+    },
+    {
+        "id":"7",
+        "name":"Vijayawada"
+    }
+]
